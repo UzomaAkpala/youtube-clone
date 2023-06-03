@@ -3,19 +3,22 @@
   position: sticky;
   margin-top: 12px;
 }
+.header-left-items {
+  margin-left: 20px;
+}
 .menubar {
   padding-right: 20px;
 }
 .header-middle-items {
-  width: 70%;
+  width: 50%;
 }
 .input-box {
-  width: 74%;
+  width: 95%;
   display: flex;
 }
 input.search-box {
-  width: 80%;
-  height: 28px;
+  width: 90%;
+  height: 35px;
   border: 1px solid #607d8b80;
   font-size: 22px;
   margin: 0px;
@@ -23,8 +26,21 @@ input.search-box {
 }
 .search-box {
   width: 40px;
-  height: 28px;
+  height: 35px;
   margin: 0px;
   top: 0%;
   border: 1px solid #607d8b80;
+  cursor: pointer;
+}
+img.dp {
+  width: 30px;
+  height: 30px;
+  margin-left: -20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header-rightbar {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
 }

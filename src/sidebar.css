@@ -1,0 +1,24 @@
+.sidebar {
+  margin-top: 20px;
+  width: 200px;
+  height: 500px;
+  border: 2px solid black;
+}
+.sidebar-items {
+  margin-top: 15px;
+}
+.sidebar-text {
+  font-size: 20px;
+  color: black;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 95%;
+  margin-left: 10px;
+  height: 3px;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
